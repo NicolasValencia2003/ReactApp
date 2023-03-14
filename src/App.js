@@ -7,7 +7,7 @@ import Contact from './Contact';
 const App = () => {	
   return (
     <div>
-	<Routes>
+	  <Routes>
       <Route exact path='/' Component={Home}/>
       <Route exact path='/contact' Component={Contact}/>
     </Routes>

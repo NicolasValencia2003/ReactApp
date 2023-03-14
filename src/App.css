@@ -1,0 +1,26 @@
+.HomePage {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  position: relative;
+}
+
+.ContactPage {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.HomeToContactLink {
+  color: white;
+  display: flex;
+
+}
+
+.ContactToHomeLink {
+  color: white;
+  display: flex;
+}
+
+
+

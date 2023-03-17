@@ -22,5 +22,19 @@
   display: flex;
 }
 
+.NavBar {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-decoration: None;
+  background-color: gray;
+}
+
+.Title {
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+
 
 

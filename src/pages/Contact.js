@@ -2,11 +2,11 @@ import React from 'react'
 import '../App.css'
 
 
-const Contact = () => {
+const Forum = () => {
     return (
-        <div className='ContactPage'>
-            <p>I am contact page</p>
+        <div className='ForumPage'>
+            <p>I am forum page</p>
         </div>
     )
 }
-export default Contact
+export default Forum;

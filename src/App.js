@@ -3,11 +3,12 @@ import React from 'react';
 import './App.css'
 import {Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'
-import Contact from './pages/Contact';
+import Forum from './pages/Contact'
 import NavBar from './components/NavBar';
 import Title from './components/Title';
 import Nutrition from './pages/Nutrition';
 import Routines from './pages/Routines';
+import SystemSettings from './pages/SystemSettings';
 
 const App = () => {	
   return (
@@ -15,9 +16,10 @@ const App = () => {
     <Title/>
 	  <Routes>
       <Route exact path='/' Component={Home}/>
-      <Route exact path='/contact' Component={Contact}/>
+      <Route exact path='/forum' Component={Forum}/>
       <Route exact path='/nutrition' Component={Nutrition}/>
       <Route exact path='/routines' Component={Routines}/>
+      <Route exact path='/systemsettings' Component={SystemSettings}/>
     </Routes>
     <NavBar/>
   	</div>	

@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.ContactPage {
+.ForumPage {
   text-align: center;
   background-color: black;
   color: white;
@@ -17,13 +17,12 @@
   color: white;
 }
 
-.HomeToContactLink {
-  color: white;
-  display: flex;
-
+.HomeToForumLink {
+  height: 50px;
+  width: 50px;
 }
 
-.ContactToHomeLink {
+.ForumToHomeLink {
   color: white;
   display: flex;
 }
@@ -40,6 +39,12 @@
   margin: 3px;
 }
 
+.Botonsettings {
+  width: 30px;
+  height: 30px;
+  padding: 0.1px;
+}
+
 .imageNutrition {
   height: 30px;
 }
@@ -48,19 +53,49 @@
   height: 29px;
 }
 
+.imageSettings {
+  height: 25px;
+}
+
 .NavBar {
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
-  text-decoration: None;
-  background-color: black;
+  background-color: gray;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.HomeButton {
+  height: 30px;
+  width: 30px;
+  padding: 1px;
+}
+
+.ForumButton {
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  margin: 3px;
+}
+
+.imageHome {
+  height: 25px;
+}
+
+.imageForum {
+  height: 19px;
 }
 
 .Title {
-  color: white;
+  color: orange;
   text-align: center;
   background-color: black;
+  margin: 0px 0px 0px 0px;
+  padding-bottom: 15px;
 }
+
+
 
 
 

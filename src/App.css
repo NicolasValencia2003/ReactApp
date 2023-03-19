@@ -1,13 +1,19 @@
 .HomePage {
   text-align: center;
-  background-color: gray;
+  background-color: black;
   color: white;
   position: relative;
 }
 
 .ContactPage {
   text-align: center;
-  background-color: gray;
+  background-color: black;
+  color: white;
+}
+
+.NutritionPage {
+  text-align: center;
+  background-color: black;
   color: white;
 }
 
@@ -22,18 +28,38 @@
   display: flex;
 }
 
+.BotonNutrition {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
+.BotonRoutines {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
+.imageNutrition {
+  height: 30px;
+}
+
+.imageRoutines {
+  height: 29px;
+}
+
 .NavBar {
   color: white;
   display: flex;
   justify-content: center;
   text-decoration: None;
-  background-color: gray;
+  background-color: black;
 }
 
 .Title {
   color: white;
   text-align: center;
-  background-color: gray;
+  background-color: black;
 }
 
 

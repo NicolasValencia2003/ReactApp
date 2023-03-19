@@ -39,6 +39,12 @@
   margin: 3px;
 }
 
+.BotonLocation {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+}
+
 .Botonsettings {
   width: 30px;
   height: 30px;
@@ -55,6 +61,10 @@
 
 .imageSettings {
   height: 25px;
+}
+
+.imageLocation{
+  height: 30px;
 }
 
 .NavBar {

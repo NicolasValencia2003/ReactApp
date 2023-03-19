@@ -9,6 +9,7 @@ import Title from './components/Title';
 import Nutrition from './pages/Nutrition';
 import Routines from './pages/Routines';
 import SystemSettings from './pages/SystemSettings';
+import Location from './pages/Location';
 
 const App = () => {	
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path='/nutrition' Component={Nutrition}/>
       <Route exact path='/routines' Component={Routines}/>
       <Route exact path='/systemsettings' Component={SystemSettings}/>
+      <Route exact path='/location' Component={Location}/>
     </Routes>
     <NavBar/>
   	</div>	

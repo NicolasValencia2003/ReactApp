@@ -5,7 +5,7 @@ import '../App.css'
 const  Location = () => {
     return (
         <div className='LocationPage'>
-            <p>I am Mamame el bicho page</p>
+            <p>I am Location page</p>
         </div>
     )
 }

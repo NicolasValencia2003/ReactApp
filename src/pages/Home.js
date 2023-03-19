@@ -16,8 +16,8 @@ const Home = () => {
                     <img src='https://i.pinimg.com/736x/57/f9/0f/57f90fb40b3b1872e45f42cb053f2a96.jpg' className='imageRoutines'/>
                 </button>
             </Link>
-            <p></p>
-            <Link to="/forum" className='HomeToForumLink'>
+            <div className='spaceBetween'></div>
+            <Link to="/forum">
                 <button className="ForumButton">
                     <img src="https://p.kindpng.com/picc/s/312-3120150_fg-forum-svg-png-icon-free-download-transparent.png" className="imageForum"/>
                 </button>

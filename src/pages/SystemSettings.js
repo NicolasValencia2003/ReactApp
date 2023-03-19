@@ -4,7 +4,7 @@ import '../App.css'
 
 const SystemSettings = () => {
     return (
-        <div className='SystemSettings'>
+        <div className='SystemSettingsPage'>
             <p>I am system settings page</p>
         </div>
     )

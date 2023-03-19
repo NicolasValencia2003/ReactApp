@@ -3,6 +3,7 @@
   background-color: black;
   color: white;
   position: relative;
+  padding-bottom: 35px;
 }
 
 .ForumPage {
@@ -17,46 +18,66 @@
   color: white;
 }
 
-.HomeToForumLink {
-  height: 50px;
-  width: 50px;
+.RoutinesPage{
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
-.ForumToHomeLink {
+.ProfilePage{
+  text-align: center;
+  background-color: black;
   color: white;
-  display: flex;
 }
+
+.LocationPage{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.SystemSettingsPage{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
 
 .BotonNutrition {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin: 3px;
+  border-radius: 7px;
 }
 
 .BotonRoutines {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin: 3px;
+  border-radius: 7px;
 }
 
 .BotonLocation {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin: 3px;
+  border-radius: 7px;
 }
 
 .Botonsettings {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   padding: 0.1px;
+  background-color: orange;
+  border-radius: 7px;
 }
 
 .imageNutrition {
-  height: 30px;
+  height: 40px;
 }
 
 .imageRoutines {
-  height: 29px;
+  height: 40px;
 }
 
 .imageSettings {
@@ -64,7 +85,7 @@
 }
 
 .imageLocation{
-  height: 30px;
+  height: 40px;
 }
 
 .NavBar {
@@ -77,16 +98,31 @@
 }
 
 .HomeButton {
-  height: 30px;
-  width: 30px;
-  padding: 1px;
-}
-
-.ForumButton {
   height: 50px;
   width: 50px;
   padding: 1px;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.ForumButton {
+  height: 80px;
+  width: 80px;
+  padding: 1px;
   margin: 3px;
+  border-radius: 7px;
+}
+
+.BotonProfile {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.imageProfile {
+  height: 20px;
+  padding: auto;
 }
 
 .imageHome {
@@ -94,7 +130,7 @@
 }
 
 .imageForum {
-  height: 19px;
+  height: 40px;
 }
 
 .Title {
@@ -103,6 +139,11 @@
   background-color: black;
   margin: 0px 0px 0px 0px;
   padding-bottom: 15px;
+  font-size: 70px;
+}
+
+.spaceBetween {
+  height: 1px;
 }
 
 

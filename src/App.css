@@ -42,6 +42,9 @@
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .SystemSettingsPage{
@@ -166,6 +169,11 @@
 .dinnerImage{
   height: 85px;
   width: 170px;
+}
+
+.locationMap{
+  height: 250px;
+  width: 250px;
 }
 
 .textB{

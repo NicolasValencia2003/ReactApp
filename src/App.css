@@ -6,6 +6,22 @@
   padding-bottom: 170px;
   padding-top: 95px;
 }
+.botonSimilares{
+  height: 90px;
+  width: 90px;
+  border-radius: 7px;
+  padding: 0px;
+  padding-top: 1px;
+}
+
+.imageSimilares{
+  height: 82px;
+  width: 82px;
+  position: relative;
+  padding-bottom: 100px;
+  display:block;
+
+}
 
 .ForumPage {
   text-align: center;
@@ -29,18 +45,27 @@
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .ProfilePage{
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .LocationPage{
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .SystemSettingsPage{
@@ -49,6 +74,10 @@
   color: white;
 }
 
+.checkBoxRoutine{
+  padding-top: 1px;
+  display: block;
+}
 
 .BotonNutrition {
   height: 90px;
@@ -102,6 +131,11 @@
 
 .directionInput{
   height: 40px;
+}
+
+.routineImage{
+  width: 200px;
+  border-radius: 10px;
 }
 
 .NavBar {

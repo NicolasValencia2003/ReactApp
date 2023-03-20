@@ -22,6 +22,10 @@
   padding-top: 5px;
 }
 
+.nTitle{
+  font-family: fantasy;
+}
+
 .RoutinesPage{
   text-align: center;
   background-color: black;

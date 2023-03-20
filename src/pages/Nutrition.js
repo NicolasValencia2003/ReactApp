@@ -6,7 +6,7 @@ import '../App.css'
 const Nutrition = () => {
     return (
         <div className='NutritionPage'>
-            <h2>Nutrition</h2>
+            <h2 className='nTitle'>Nutrition</h2>
             <Link to=''>
                 <button className='botonBreakfast'>
                     <label className='textB'>Desayuno</label>

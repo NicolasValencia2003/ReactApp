@@ -11,6 +11,9 @@ import Routines from './pages/Routines';
 import SystemSettings from './pages/SystemSettings';
 import Location from './pages/Location';
 import Profile from './pages/Profile';
+import Start from './pages/Start';
+import Login from './pages/Login';
+import Create from './pages/Create';
 
 const App = () => {	
   return (
@@ -18,6 +21,9 @@ const App = () => {
     <Title/>
 	  <Routes>
       <Route exact path='/' Component={Home}/>
+      <Route exact path='/start' Component={Start}/>
+      <Route exact path='/login' Component={Login}/>
+      <Route exact path='/create' Component={Create}/>
       <Route exact path='/forum' Component={Forum}/>
       <Route exact path='/nutrition' Component={Nutrition}/>
       <Route exact path='/routines' Component={Routines}/>

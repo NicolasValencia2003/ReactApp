@@ -6,6 +6,11 @@ import '../App.css'
 const Home = () => {
     return (
         <div className='HomePage'>
+            <Link to="/start">
+                <button className='BotonStart'>
+                    <h3>Pagina De Inicio</h3>
+                </button>
+            </Link>
             <Link to="/nutrition">
                 <button className='BotonNutrition'>
                     <img src='https://www.pngitem.com/pimgs/m/43-435774_nutrition-black-and-white-hd-png-download.png' className='imageNutrition'/>

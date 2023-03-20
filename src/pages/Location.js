@@ -20,15 +20,13 @@ const  Location = () => {
 
             <p> Si no encuentras tu sede, agregala aqui </p>
 
-            <form>
+            <form className = "directionInput">
                 <label>
                     Dirección:
                     <input type="text" name="name" className = ""/>
                 </label>
                 <input type="submit" value="Submit" />
             </form>
-
-
         </div>
     )
 }

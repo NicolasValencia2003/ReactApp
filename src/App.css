@@ -95,6 +95,15 @@
   height: 50px;
 }
 
+.locationMap{
+  height: 200px;
+  width: 200px;
+}
+
+.directionInput{
+  height: 40px;
+}
+
 .NavBar {
   color: black;
   display: flex;
@@ -237,13 +246,81 @@
 
 .chat1Image {
   height:200px;
-  width: 350px;
+  width: 200px;
 }
 
 .chat2Image {
   height:200px;
-  width: 350px;
+  width: 200px;
 }
+
+.StartPage {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.LoginPage {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.CreatePage {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.BotonStart {
+  padding: 1px;
+  margin: 30px;
+  border-radius: 7px;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+
+.BotonLogin {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+
+.BotonCreate {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+
+.BotonIniciarHome {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+
+.BotonIniciarLogin {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: black;
+}
+
+
+
 
 
 

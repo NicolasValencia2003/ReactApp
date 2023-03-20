@@ -95,6 +95,15 @@
   height: 50px;
 }
 
+.locationMap{
+  height: 200px;
+  width: 200px;
+}
+
+.directionInput{
+  height: 40px;
+}
+
 .NavBar {
   color: black;
   display: flex;
@@ -237,12 +246,12 @@
 
 .chat1Image {
   height:200px;
-  width: 350px;
+  width: 200px;
 }
 
 .chat2Image {
   height:200px;
-  width: 350px;
+  width: 200px;
 }
 
 

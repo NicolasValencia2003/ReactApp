@@ -3,7 +3,8 @@
   background-color: black;
   color: white;
   position: relative;
-  padding-bottom: 35px;
+  padding-bottom: 90px;
+  padding-top: 50px;
 }
 
 .ForumPage {
@@ -16,6 +17,9 @@
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .RoutinesPage{
@@ -120,6 +124,74 @@
   border-radius: 7px;
 }
 
+.botonBreakfast{
+  height: 90px;
+  width: 180px;
+}
+
+.botonLunch{
+  height: 90px;
+  width: 180px;
+}
+
+.botonSnack{
+  height: 90px;
+  width: 180px;
+}
+
+.botonDinner{
+  height: 90px;
+  width: 180px;
+}
+
+.breakfastImage{
+  height: 85px;
+  width: 170px;
+}
+
+.lunchImage{
+  height: 85px;
+  width: 170px;
+}
+
+.snackImage{
+  height: 85px;
+  width: 170px;
+}
+
+.dinnerImage{
+  height: 85px;
+  width: 170px;
+}
+
+.textB{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textL{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textS{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textD{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
 .imageProfile {
   height: 20px;
   padding: auto;
@@ -133,19 +205,25 @@
   height: 40px;
 }
 
+
 .Title {
   color: orange;
   text-align: center;
   background-color: black;
   margin: 0px 0px 0px 0px;
-  padding-bottom: 15px;
-  font-size: 70px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  font-size: 55px;
+  position: relative;
 }
 
 .spaceBetween {
   height: 1px;
 }
 
+.spaceBetween2 {
+  height: 0px;
+}
 
 
 

@@ -3,8 +3,8 @@
   background-color: black;
   color: white;
   position: relative;
-  padding-bottom: 90px;
-  padding-top: 50px;
+  padding-bottom: 170px;
+  padding-top: 95px;
 }
 
 .ForumPage {
@@ -48,22 +48,22 @@
 
 
 .BotonNutrition {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   margin: 3px;
   border-radius: 7px;
 }
 
 .BotonRoutines {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   margin: 3px;
   border-radius: 7px;
 }
 
 .BotonLocation {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   margin: 3px;
   border-radius: 7px;
 }
@@ -77,11 +77,11 @@
 }
 
 .imageNutrition {
-  height: 40px;
+  height: 50px;
 }
 
 .imageRoutines {
-  height: 40px;
+  height: 50px;
 }
 
 .imageSettings {
@@ -89,7 +89,7 @@
 }
 
 .imageLocation{
-  height: 40px;
+  height: 50px;
 }
 
 .NavBar {
@@ -110,8 +110,8 @@
 }
 
 .ForumButton {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   padding: 1px;
   margin: 3px;
   border-radius: 7px;
@@ -202,7 +202,7 @@
 }
 
 .imageForum {
-  height: 40px;
+  height: 50px;
 }
 
 

@@ -6,9 +6,9 @@ import '../App.css'
 const Home = () => {
     return (
         <div className='HomePage'>
-            <Link to="/start">
+            <Link to="/create">
                 <button className='BotonStart'>
-                    <h3>Pagina De Inicio</h3>
+                    <h3>Crear Cuenta</h3>
                 </button>
             </Link>
             <Link to="/nutrition">

@@ -23,7 +23,7 @@ const  Location = () => {
             <form>
                 <label>
                     Dirección:
-                    <input type="text" name="name" />
+                    <input type="text" name="name" className = ""/>
                 </label>
                 <input type="submit" value="Submit" />
             </form>

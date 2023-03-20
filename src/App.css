@@ -3,20 +3,26 @@
   background-color: black;
   color: white;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 170px;
+  padding-top: 95px;
 }
 
 .ForumPage {
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .NutritionPage {
   text-align: center;
   background-color: black;
   color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
 }
 
 .RoutinesPage{
@@ -43,30 +49,25 @@
   color: white;
 }
 
-.ScrollPage{
-  text-align: center;
-  background-color: black;
-  color: white;
-}
 
 .BotonNutrition {
-  height: 80px;
-  width: 80px;
-  margin: 30px;
+  height: 90px;
+  width: 90px;
+  margin: 3px;
   border-radius: 7px;
 }
 
 .BotonRoutines {
-  height: 80px;
-  width: 80px;
-  margin: 30px;
+  height: 90px;
+  width: 90px;
+  margin: 3px;
   border-radius: 7px;
 }
 
 .BotonLocation {
-  height: 80px;
-  width: 80px;
-  margin: 30px;
+  height: 90px;
+  width: 90px;
+  margin: 3px;
   border-radius: 7px;
 }
 
@@ -74,24 +75,16 @@
   width: 50px;
   height: 50px;
   padding: 0.1px;
-  background-color: white;
-  border-radius: 7px;
-}
-
-.BotonScroll {
-  height: 50px;
-  width: 50px;
-  padding: 1px;
-  background-color: white;
+  background-color: orange;
   border-radius: 7px;
 }
 
 .imageNutrition {
-  height: 40px;
+  height: 50px;
 }
 
 .imageRoutines {
-  height: 40px;
+  height: 50px;
 }
 
 .imageSettings {
@@ -99,49 +92,111 @@
 }
 
 .imageLocation{
-  height: 40px;
+  height: 50px;
 }
 
 .NavBar {
   color: black;
   display: flex;
   justify-content: center;
-  margin: 1px 0px 0px 0px;
-  background-color: black;
+  background-color: gray;
   text-decoration: none;
-
+  border-radius: 5px;
 }
 
 .HomeButton {
   height: 50px;
   width: 50px;
   padding: 1px;
-  background-color: white;
+  background-color: orange;
   border-radius: 7px;
 }
 
 .ForumButton {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   padding: 1px;
-  margin: 30px;
+  margin: 3px;
   border-radius: 7px;
 }
 
 .BotonProfile {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-color: orange;
   border-radius: 7px;
+}
+
+.botonBreakfast{
+  height: 90px;
+  width: 180px;
+}
+
+.botonLunch{
+  height: 90px;
+  width: 180px;
+}
+
+.botonSnack{
+  height: 90px;
+  width: 180px;
+}
+
+.botonDinner{
+  height: 90px;
+  width: 180px;
+}
+
+.breakfastImage{
+  height: 85px;
+  width: 170px;
+}
+
+.lunchImage{
+  height: 85px;
+  width: 170px;
+}
+
+.snackImage{
+  height: 85px;
+  width: 170px;
+}
+
+.dinnerImage{
+  height: 85px;
+  width: 170px;
+}
+
+.textB{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textL{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textS{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textD{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
 }
 
 .imageProfile {
   height: 20px;
-  padding: auto;
-}
-
-.imageScroll {
-  height: 40px;
   padding: auto;
 }
 
@@ -150,24 +205,63 @@
 }
 
 .imageForum {
-  height: 40px;
+  height: 50px;
 }
 
+
 .Title {
-  color: white;
-  text-align: left;
+  color: orange;
+  text-align: center;
   background-color: black;
-  margin: 0px 0px 1px 0px;
-  padding-top: 30px;
-  padding-left: 20px;
+  margin: 0px 0px 0px 0px;
   padding-bottom: 0px;
-  font-size: 30px;
+  padding-top: 10px;
+  font-size: 55px;
+  position: relative;
 }
 
 .spaceBetween {
   height: 1px;
 }
 
+.spaceBetween2 {
+  height: 0px;
+}
+
+.ScrollPage{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.BotonScroll {
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  background-color: orange;
+  border-radius: 7px;
+}
+
+.BotonPublicar {
+  height: 50px;
+  width: 200px;
+  background-color: grey;
+  color: black;
+}
+
+.imageScroll {
+  height: 20px;
+}
+
+.chat1Image {
+  height:200px;
+  width: 350px;
+}
+
+.chat2Image {
+  height:200px;
+  width: 350px;
+}
 
 
 

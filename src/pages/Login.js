@@ -8,6 +8,7 @@ const Login = () => {
         <div className='LoginPage'>
             <h3>Inicio De Sesion!</h3>
             <h5>Ingrese sus datos</h5>
+            <Link to='/'><button className='return'><img src='https://icons.veryicon.com/png/o/miscellaneous/energy-system-icon/return-57.png' className='returnImage' alt=''/></button></Link>
             <form className = "nameInput">
                 <label>
                     <h6>Nombre</h6>
@@ -22,7 +23,7 @@ const Login = () => {
                 </label>
                 <input type="submit" value="Submit" />
             </form>
-            <Link to='/'>
+            <Link to='/home'>
                 <button className='BotonIniciarHome'>
                     <h3>Iniciar Sesion</h3>
                 </button>

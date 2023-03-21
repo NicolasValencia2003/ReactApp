@@ -20,8 +20,8 @@ const App = () => {
     <div>
     <Title/>
 	  <Routes>
-      <Route exact path='/' Component={Home}/>
-      <Route exact path='/start' Component={Start}/>
+      <Route exact path='/' Component={Start}/>
+      <Route exact path='/home' Component={Home}/>
       <Route exact path='/login' Component={Login}/>
       <Route exact path='/create' Component={Create}/>
       <Route exact path='/forum' Component={Forum}/>

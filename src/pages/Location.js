@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 
 const  Location = () => {
     return (
         <div className='LocationPage'>
-            <h2> Location</h2>
-            <img src="https://img.freepik.com/vector-premium/mapa-minimo-ciudad-cali-colombia-sudamerica_478328-912.jpg"
-                 className='locationMap'/>
+            <h2>Location</h2>
+            <Link to='/home'><button className='return'><img src='https://icons.veryicon.com/png/o/miscellaneous/energy-system-icon/return-57.png' className='returnImage' alt=''/></button></Link>
+            <img src="https://img.freepik.com/vector-premium/mapa-minimo-ciudad-cali-colombia-sudamerica_478328-912.jpg" alt='' className='locationMap'/>
 
             <p> Seleccionar Ubicacion </p>
 

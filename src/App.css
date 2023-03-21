@@ -3,26 +3,10 @@
   background-color: black;
   color: white;
   position: relative;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.botonSimilares{
-  height: 90px;
-  width: 90px;
-  border-radius: 7px;
-  padding: 0px;
-  padding-top: 1px;
-}
-
-.imageSimilares{
-  height: 82px;
-  width: 82px;
-  position: relative;
-  padding-bottom: 100px;
-  display:block;
-
-}
 .botonSimilares{
   height: 90px;
   width: 90px;
@@ -71,18 +55,14 @@
   text-align: center;
   background-color: black;
   color: white;
-  position: relative;
-  padding-bottom: 50px;
-  padding-top: 5px;
+  
 }
 
 .LocationPage{
   text-align: center;
   background-color: black;
   color: white;
-  position: relative;
-  padding-bottom: 50px;
-  padding-top: 5px;
+  
 }
 
 .SystemSettingsPage{
@@ -187,6 +167,7 @@
   border-radius: 7px;
 }
 
+
 .botonBreakfast{
   height: 90px;
   width: 180px;
@@ -227,7 +208,20 @@
   width: 170px;
 }
 
+.imageNews {
+  background-color: black;
+  height: 100px;
+  width: 120px;
+}
+
 .textB{
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 4px;
+}
+
+.textN{
   position: absolute;
   background-color: whitesmoke;
   color: black;
@@ -303,7 +297,6 @@
 .chat2Image {
   height:200px;
   width: 200px;
-<<<<<<< HEAD
 }
 
 .StartPage {
@@ -371,16 +364,4 @@
   width: 200px;
   background-color: white;
   color: black;
-=======
->>>>>>> 15339bab28dde2995bf8e665fe13a9b260ace7cc
 }
-
-
-
-
-
-
-
-
-
-

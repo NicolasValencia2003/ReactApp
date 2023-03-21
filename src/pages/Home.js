@@ -6,7 +6,13 @@ import '../App.css'
 const Home = () => {
     return (
         <div className='HomePage'>
-            <Link to="/create">
+            <Link to=''>
+                <button className='BotonNews'>
+                    <label className='textN'>Trending Workouts</label>
+                    <img src='https://media.ambito.com/p/847570d20c5980836b9ce9fea709514a/adjuntos/239/imagenes/038/108/0038108128/1200x675/smart/arnold-schwarzenegger.jpg' className='imageNews'/>
+                </button>
+            </Link>
+            <Link to='/create'>
                 <button className='BotonStart'>
                     <h3>Crear Cuenta</h3>
                 </button>

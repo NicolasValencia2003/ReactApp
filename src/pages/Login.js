@@ -14,18 +14,16 @@ const Login = () => {
                     <h6>Nombre</h6>
                     <input type="text" name="name" className = ""/>
                 </label>
-                <input type="submit" value="Submit" />
             </form>
             <form className = "passwordInput">
                 <label>
                     <h6>Contraseña</h6>
                     <input type="text" name="name" className = ""/>
                 </label>
-                <input type="submit" value="Submit" />
             </form>
             <Link to='/home'>
                 <button className='BotonIniciarHome'>
-                    <h3>Iniciar Sesion</h3>
+                    <p>Iniciar Sesion</p>
                 </button>
             </Link>
 

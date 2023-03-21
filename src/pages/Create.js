@@ -14,26 +14,23 @@ const Create = () => {
                     <h6>Nombre</h6>
                     <input type="text" name="name" className = ""/>
                 </label>
-                <input type="submit" value="Submit" />
             </form>
             <form className = "adressInput">
                 <label>
                     <h6>Apellido</h6>
                     <input type="text" name="name" className = ""/>
                 </label>
-                <input type="submit" value="Submit" />
             </form>
             <form className = "passwordInput">
                 <label>
                     <h6>Contraseña</h6>
                     <input type="text" name="name" className = ""/>
                 </label>
-                <input type="submit" value="Submit" />
             </form>
 
             <Link to='/login'>
                 <button className='BotonIniciarLogin'>
-                    <h3>Registrar</h3>
+                    <p>Registrar</p>
                 </button>
             </Link>
 

@@ -7,6 +7,7 @@
   border-radius: 5px;
   background-color: orange;
   padding: 1px;
+  cursor: pointer;
 }
 
 .returnF{
@@ -18,6 +19,7 @@
   border-radius: 5px;
   background-color: orange;
   padding: 1px;
+  cursor: pointer;
 }
 
 .returnR{
@@ -29,6 +31,7 @@
   border-radius: 5px;
   background-color: orange;
   padding: 1px;
+  cursor: pointer;
 }
 
 
@@ -39,15 +42,20 @@
 }
 
 .createAccountButton{
-  height: 50px;
-  width: 150px;  
+  height: 60px;
+  width: 170px;  
   border-radius: 5px;
+  cursor: pointer;
+  margin-top: 70px;
 }
 
 .loginButton{
-  height: 50px;
-  width: 150px;
+  height: 60px;
+  width: 170px;
   border-radius: 5px;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-bottom: 60px;
 }
 
 .HomePage {
@@ -65,6 +73,7 @@
   border-radius: 7px;
   padding: 0px;
   padding-top: 1px;
+  cursor: pointer;
 }
 
 .imageSimilares{
@@ -133,6 +142,7 @@
   width: 90px;
   margin: 3px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .BotonRoutines {
@@ -140,6 +150,7 @@
   width: 90px;
   margin: 3px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .BotonLocation {
@@ -147,6 +158,7 @@
   width: 90px;
   margin: 3px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .Botonsettings {
@@ -155,6 +167,7 @@
   padding: 0.1px;
   background-color: orange;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .imageNutrition {
@@ -202,6 +215,7 @@
   padding: 1px;
   background-color: orange;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .menuImage{
@@ -214,6 +228,7 @@
   padding: 1px;
   background-color: orange;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .ForumButton {
@@ -222,6 +237,7 @@
   padding: 1px;
   margin: 3px;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .BotonProfile {
@@ -229,27 +245,32 @@
   width: 50px;
   background-color: orange;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 
 .botonBreakfast{
   height: 90px;
   width: 180px;
+  cursor: pointer;
 }
 
 .botonLunch{
   height: 90px;
   width: 180px;
+  cursor: pointer;
 }
 
 .botonSnack{
   height: 90px;
   width: 180px;
+  cursor: pointer;
 }
 
 .botonDinner{
   height: 90px;
   width: 180px;
+  cursor: pointer;
 }
 
 .breakfastImage{
@@ -351,6 +372,7 @@
   width: 200px;
   background-color: grey;
   color: black;
+  cursor: pointer;
 }
 
 .chat1Image {
@@ -373,6 +395,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .LoginPage {
@@ -401,6 +424,7 @@
   width: 200px;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .BotonLogin {
@@ -408,6 +432,7 @@
   width: 200px;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .BotonCreate {
@@ -415,6 +440,7 @@
   width: 200px;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 .BotonIniciarHome {
@@ -425,6 +451,7 @@
   color: black;
   border-radius: 7px;
   padding-top: 0%;
+  cursor: pointer;
 }
 
 .BotonIniciarLogin {
@@ -435,4 +462,5 @@
   color: black;
   border-radius: 7px;
   padding-top: 0%;
+  cursor: pointer;
 }

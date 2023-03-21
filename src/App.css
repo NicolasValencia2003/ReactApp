@@ -34,6 +34,17 @@
   cursor: pointer;
 }
 
+.avatarButtom{
+  height: 120px;
+  justify-content: left;
+  align-items: left;
+}
+
+.AvatarImage {
+  height: 120px;
+  justify-content: left;
+  align-items: left;
+}
 
 .returnImage{
   height: 20px;

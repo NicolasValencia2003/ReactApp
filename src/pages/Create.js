@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Create.module.css'
+import './Create.css'
 
 
 const Create = () => {

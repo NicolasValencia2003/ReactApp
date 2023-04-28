@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Location.module.css'
+import './Location.css'
 import { Link } from 'react-router-dom';
 
 

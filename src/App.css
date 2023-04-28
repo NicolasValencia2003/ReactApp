@@ -106,21 +106,13 @@
   margin: 0px 0px 0px 0px;
   padding-bottom: 0px;
   padding-top: 10px;
-  font-size: 55px;
+  font-size: 50px;
   position: relative;
 }
 
 .spaceBetween2 {
   height: 0px;
 }
-
-
-
-
-
-
-
-
 
 .BotonStart {
   padding: 1px;
@@ -133,6 +125,20 @@
   cursor: pointer;
 }
 
+.MAIN{
+  text-align: center;
+  height: 78vh;
+  width: 96vw;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 

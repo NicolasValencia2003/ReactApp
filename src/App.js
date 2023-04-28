@@ -17,7 +17,7 @@ import Create from './pages/Create';
 
 const App = () => {	
   return (
-    <div>
+    <div className='MAIN'>
     <Title/>
 	  <Routes>
       <Route exact path='/' Component={Start}/>

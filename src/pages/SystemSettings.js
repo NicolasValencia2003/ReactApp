@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SystemSettings.module.css'
+import './SystemSettings.css'
 
 
 const SystemSettings = () => {

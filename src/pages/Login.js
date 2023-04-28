@@ -1,7 +1,6 @@
 import React from 'react';
+import './Login.css'
 import { Link } from 'react-router-dom';
-import styles from './Login.module.css'
-
 
 const Login = () => {
     return (
@@ -28,6 +27,7 @@ const Login = () => {
             </Link>
 
         </div>
-    )
+    );
 }
 export default Login;
+

@@ -1,0 +1,13 @@
+.LocationPage{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-top: 0px;
+  }
+
+.returnImage{
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}

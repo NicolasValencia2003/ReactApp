@@ -1,0 +1,28 @@
+.StartPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.BotonLogin {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+.BotonCreate {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }

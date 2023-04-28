@@ -1,0 +1,19 @@
+.LoginPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+  .BotonIniciarHome {
+    margin: 30px 0px 0px 0px;
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: black;
+    border-radius: 7px;
+    padding-top: 0%;
+    cursor: pointer;
+  }

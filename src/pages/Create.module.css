@@ -1,0 +1,37 @@
+.CreatePage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+.returnImage{
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.return{
+    position: absolute;
+    top: 15%;
+    right: 80%;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 1px;
+    cursor: pointer;
+}
+
+  .BotonIniciarLogin {
+    margin: 30px 0px 0px 0px;
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: black;
+    border-radius: 7px;
+    padding-top: 0%;
+    cursor: pointer;
+}

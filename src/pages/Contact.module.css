@@ -1,0 +1,45 @@
+.ForumPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+.returnF{
+    position: absolute;
+    top: 3%;
+    right: 80%;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: orange;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.returnImage{
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chat1Image {
+    height:200px;
+    width: 200px;
+}
+  
+.chat2Image {
+    height:200px;
+    width: 200px;
+}
+
+.BotonPublicar {
+    height: 50px;
+    width: 200px;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+  }

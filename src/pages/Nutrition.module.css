@@ -1,0 +1,94 @@
+.NutritionPage {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 5px;
+  }
+
+.returnImage{
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonBreakfast{
+    height: 90px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .botonLunch{
+    height: 90px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .botonSnack{
+    height: 90px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .botonDinner{
+    height: 90px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .breakfastImage{
+    height: 85px;
+    width: 170px;
+  }
+  
+  .lunchImage{
+    height: 85px;
+    width: 170px;
+  }
+  
+  .snackImage{
+    height: 85px;
+    width: 170px;
+  }
+  
+  .dinnerImage{
+    height: 85px;
+    width: 170px;
+  }
+
+
+  .textB{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .textN{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .textL{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .textS{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+  }
+  
+  .textD{
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+  }

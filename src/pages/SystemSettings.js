@@ -1,8 +1,20 @@
 import React from 'react';
 import './SystemSettings.css'
 import { FaCookie, FaEyeSlash, FaSun, FaVolumeUp, FaSave } from 'react-icons/fa';
+import Swal from 'sweetalert2';
 
 const SystemSettings = () => {
+
+  const handleSaveClick = (event) => {
+    event.preventDefault();
+    Swal.fire({
+      icon: 'success',
+      title: 'Settings saved successfully!',
+      showConfirmButton: false,
+      timer: 1500
+    });
+  }
+
   return (
     <div className='SystemSettings'>
       <div className='SystemSettingsBox'>
@@ -30,9 +42,9 @@ const SystemSettings = () => {
             <label htmlFor='volume'>Volume:</label>
             <input type='range' id='volume' name='volume' min='0' max='100' />
           </div>
-          <button className='SystemSettingsButton' type='submit'>
+          <button className='SystemSettingsButton' type='submit' onClick={handleSaveClick}>
             <FaSave className='SystemSettingsButtonIcon' />
-                Save
+            Save
           </button>
         </form>
       </div>

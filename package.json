@@ -17,8 +17,7 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "sweetalert2": "^11.7.3",
-    "web-vitals": "^2.1.4",
-    "react_icons": "^5.15.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

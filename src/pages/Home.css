@@ -3,32 +3,40 @@
     background-color: black;
     color: white;
     position: relative;
-    padding-bottom: 190px;
-    padding-top: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .BotonNutrition {
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     margin: 3px;
     border-radius: 7px;
     cursor: pointer;
+  }
+
+  .BotonNutrition:hover{
+    background-color: aqua;
   }
 
   .imageNutrition {
-    height: 50px;
+    height: 70px;
   }
 
   .BotonRoutines {
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     margin: 3px;
     border-radius: 7px;
     cursor: pointer;
   }
 
+  .BotonRoutines:hover{
+    background-color: aqua;
+  }
+
   .imageRoutines {
-    height: 50px;
+    height: 70px;
   }
   
   .spaceBetween {
@@ -36,27 +44,35 @@
   }
 
   .BotonLocation {
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     margin: 3px;
     border-radius: 7px;
     cursor: pointer;
   }
 
+  .BotonLocation:hover{
+    background-color: aqua;
+  }
+
   .ForumButton {
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     padding: 1px;
     margin: 3px;
     border-radius: 7px;
     cursor: pointer;
   }
 
+  .ForumButton:hover{
+    background-color: aqua;
+  }
+
   .imageForum {
-    height: 50px;
+    height: 70px;
   }
 
   .imageLocation{
-    height: 50px;
+    height: 70px;
   }
 

@@ -68,6 +68,22 @@
   cursor: pointer;
 }
 
+.HomeButton:hover{
+  background-color: red;
+}
+
+.BotonProfile:hover{
+  background-color: red;
+}
+
+.MenuPullUp:hover{
+  background-color: red;
+}
+
+.Botonsettings:hover{
+  background-color: red;
+}
+
 .BotonProfile {
   height: 50px;
   width: 50px;
@@ -104,8 +120,7 @@
   text-align: center;
   background-color: black;
   margin: 0px 0px 0px 0px;
-  padding-bottom: 0px;
-  padding-top: 10px;
+  padding: 0px,0px,0px,0px;
   font-size: 50px;
   position: relative;
 }

@@ -18,14 +18,22 @@
     cursor: pointer;
   }
 
+  .BotonIniciarHome:hover{
+    background-color: red;
+  }
+
   .return{
     position: absolute;
     top: 15%;
-    right: 80%;
+    right: 110%;
     height: 25px;
     width: 25px;
     border-radius: 5px;
     background-color: orange;
     padding: 1px;
     cursor: pointer;
+  }
+
+  .return:hover{
+    background-color: red;
   }

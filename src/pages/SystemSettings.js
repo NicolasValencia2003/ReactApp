@@ -1,6 +1,7 @@
 import React from 'react';
 import './SystemSettings.css'
 import { FaCookie, FaEyeSlash, FaSun, FaVolumeUp, FaSave } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 const SystemSettings = () => {
@@ -17,6 +18,7 @@ const SystemSettings = () => {
 
   return (
     <div className='SystemSettings'>
+      <Link to='/home'><button className='return'><img src='https://icons.veryicon.com/png/o/miscellaneous/energy-system-icon/return-57.png' className='returnImage' alt=''/></button></Link>
       <div className='SystemSettingsBox'>
         <form>
           <div className='SystemSettingsOption'>

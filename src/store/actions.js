@@ -22,3 +22,13 @@ export const setMessage = (message) => {
     payload: message,
   };
 };
+
+export const LOGIN = 'LOGIN';
+
+export const login = (name, password) => ({
+  type: LOGIN,
+  payload: {
+    name,
+    password,
+  },
+});

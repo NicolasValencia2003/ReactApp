@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.css'
 
 
 const Forum = () => {
+
     return (
         <div className='ForumPage'>
             <h2 className='nTitle'>Forum</h2>
@@ -24,9 +25,9 @@ const Forum = () => {
             <h3>AYUDA!</h3>
             <h5>Hay un acosador en mi gimnasio. Siempre que volteo, esta ahi mirandome seductoramente. Que hago?</h5>
             <h4>Hace 4 días por ChicoPlay</h4>
-            <Link to=''>
+            <Link to='/post'>
                 <button className='BotonPublicar'>
-                    <h3>Publicar</h3>
+                    <h3>Crear Peticion</h3>
                 </button>
             </Link>
 

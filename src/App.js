@@ -14,6 +14,7 @@ import Profile from './pages/Profile';
 import Start from './pages/Start';
 import Login from './pages/Login';
 import Create from './pages/Create';
+import Post from './pages/Post';
 
 const App = () => {	
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Route exact path='/systemsettings' Component={SystemSettings}/>
       <Route exact path='/location' Component={Location}/>
       <Route exact path='/profile' Component={Profile}/>
+      <Route exact path='/post' Component={Post}/>
     </Routes>
     <NavBar/>
   	</div>	

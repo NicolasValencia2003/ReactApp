@@ -1,0 +1,33 @@
+.healthy-snack-options-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #healthy-snack-options-select {
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+  }
+  
+  .option-details {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .option-details p {
+    margin-top: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .healthy-snack-options-container {
+      width: 50%;
+    }
+  }
+  

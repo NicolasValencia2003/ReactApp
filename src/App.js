@@ -15,6 +15,10 @@ import Start from './pages/Start';
 import Login from './pages/Login';
 import Create from './pages/Create';
 import Post from './pages/Post';
+import NutritionBreakfast from './pages/NutritionBreakfast';
+import LunchOptions from './pages/LunchOptions';
+import HealthySnackOptions from './pages/HealthySnackOptions';
+import DinnerOptions from './pages/DinnerOptions';
 
 const App = () => {	
   return (
@@ -32,6 +36,10 @@ const App = () => {
       <Route exact path='/location' Component={Location}/>
       <Route exact path='/profile' Component={Profile}/>
       <Route exact path='/post' Component={Post}/>
+      <Route exact path='/breakfast' Component={NutritionBreakfast}/>
+      <Route exact path='/lunch' Component={LunchOptions}/>
+      <Route exact path='/snacks' Component={HealthySnackOptions}/>
+      <Route exact path='/dinner' Component={DinnerOptions}/>
     </Routes>
     <NavBar/>
   	</div>	

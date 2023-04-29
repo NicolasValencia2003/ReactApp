@@ -4,11 +4,12 @@
     background-color: black;
     color: white;
     position: relative;
-    padding-bottom: 50px;
-    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    max-height: 600px;
   }
 
-.returnF{
+.return{
     position: absolute;
     top: 3%;
     right: 80%;
@@ -28,19 +29,19 @@
 
 
 .chat1Image {
-    height:200px;
-    width: 200px;
+    height:80px;
+    width: 80px;
 }
   
 .chat2Image {
-    height:200px;
-    width: 200px;
+    height:80px;
+    width: 80px;
 }
 
-.BotonPublicar {
+.BotonPublicar{
     height: 50px;
-    width: 200px;
+    width: 90px;
     background-color: grey;
     color: black;
     cursor: pointer;
-  }
+}

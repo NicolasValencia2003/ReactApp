@@ -20,7 +20,7 @@ const Login = () => {
             Swal.fire({
                 position: 'top',
                 icon: 'success',
-                title: 'Login Successful',
+                title: 'Login Successful :)',
                 showConfirmButton: false,
                 timer: 1500
               })
@@ -30,7 +30,7 @@ const Login = () => {
             Swal.fire({
                 position: 'top',
                 icon: 'error',
-                title: 'Wrong Username or Password',
+                title: 'Wrong Username or Password :(',
                 showConfirmButton: false,
                 timer: 1500
               })

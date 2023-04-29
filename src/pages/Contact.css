@@ -1,47 +1,89 @@
-
 .ForumPage {
-    text-align: center;
-    background-color: black;
-    color: white;
-    position: relative;
-    padding-bottom: 5px;
-    padding-top: 50px;
-    max-height: 600px;
-  }
-
-.return{
-    position: absolute;
-    top: 3%;
-    right: 80%;
-    height: 25px;
-    width: 25px;
-    border-radius: 5px;
-    background-color: orange;
-    padding: 1px;
-    cursor: pointer;
-}
-
-.returnImage{
-    height: 20px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-}
-
-
-.chat1Image {
-    height:80px;
-    width: 80px;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+  
+.ForumPost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
 }
   
-.chat2Image {
-    height:80px;
-    width: 80px;
+  .nTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.returnImage {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
 }
-
-.BotonPublicar{
+  
+  .botonChat1, .botonChat2 {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat1Image, .chat2Image {
+    width: 50px;
     height: 50px;
-    width: 90px;
-    background-color: grey;
-    color: black;
+  }
+  
+  .ForumPostContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    width: calc(100% - 60px);
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+    
+.return, .BotonPublicar {
+    background-color: orange;
+    border: none;
     cursor: pointer;
 }
+  
+  .return:hover, .BotonPublicar:hover {
+    background-color: red;
+  }
+  
+  .BotonPublicar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .insidePub {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

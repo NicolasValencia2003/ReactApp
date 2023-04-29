@@ -16,7 +16,7 @@ const Forum = () => {
             </Link>
             <h4>Que piensan de la chia?</h4>
             <p>Sabe a tierra con trigo pero es muy nutritiva segun los expertos de la DIAN</p>
-            <h5>Hace 3 días por Pirilover69</h5>
+            <p>Hace 3 días por Pirilover69</p>
             <Link to=''>
                 <button className='botonChat2'>
                     <img src='https://lamenteesmaravillosa.com/wp-content/uploads/2015/04/acosador.jpg' className='chat2Image' alt=''/>
@@ -24,7 +24,7 @@ const Forum = () => {
             </Link>
             <h4>AYUDA!</h4>
             <p>Hay un acosador en mi gimnasio. Siempre que volteo, esta ahi mirandome seductoramente. Que hago?</p>
-            <h4>Hace 4 días por ChicoPlay</h4>
+            <p>Hace 4 días por ChicoPlay</p>
             <Link to='/post'>
                 <button className='BotonPublicar'>
                     <p className='insidePub'>Crear Peticion</p>

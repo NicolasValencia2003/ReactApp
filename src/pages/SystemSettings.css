@@ -2,3 +2,33 @@
     text-align: center;
     background-color: black;
   }
+
+  .SystemSettingsBox {
+    padding: 20px;
+  }
+  
+  .SystemSettingsOption {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .SystemSettingsIcon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+
+  .SystemSettingsButton {
+    background-color: #ffd700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .SystemSettingsButton:hover {
+    background-color: #d4af37;
+  }
